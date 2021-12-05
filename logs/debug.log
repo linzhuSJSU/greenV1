@@ -1,0 +1,27 @@
+2021-12-02 15:01:42.437  INFO 13232 --- [main] zxz.cs160.green.GreenApplication         : Starting GreenApplication using Java 16.0.2 on DESKTOP-JVSBQJR with PID 13232 (C:\Users\Lin\Desktop\greenV1\target\classes started by Lin in C:\Users\Lin\Desktop\greenV1)
+2021-12-02 15:01:42.442  INFO 13232 --- [main] zxz.cs160.green.GreenApplication         : No active profile set, falling back to default profiles: default
+2021-12-02 15:01:43.045  INFO 13232 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-02 15:01:43.094  INFO 13232 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 3 JPA repository interfaces.
+2021-12-02 15:01:43.417  INFO 13232 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-02 15:01:43.424  INFO 13232 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-02 15:01:43.424  INFO 13232 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-12-02 15:01:43.505  INFO 13232 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-12-02 15:01:43.506  INFO 13232 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1036 ms
+2021-12-02 15:01:43.607  INFO 13232 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-02 15:01:43.639  INFO 13232 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-02 15:01:43.716  INFO 13232 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-02 15:01:43.777  INFO 13232 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-12-02 15:01:43.870  INFO 13232 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-12-02 15:01:43.880  INFO 13232 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-12-02 15:01:44.349  INFO 13232 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-02 15:01:44.355  INFO 13232 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-02 15:01:44.809  INFO 13232 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7c9512c6, org.springframework.security.web.context.SecurityContextPersistenceFilter@5cc669d, org.springframework.security.web.header.HeaderWriterFilter@25e8a111, org.springframework.security.web.authentication.logout.LogoutFilter@22105c76, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@b5311cb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@212c0aff, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@44dcc0e4, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@33a8f553, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4f65af91, org.springframework.security.web.session.SessionManagementFilter@353422fd, org.springframework.security.web.access.ExceptionTranslationFilter@4b20aa21, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@46bdc55e]
+2021-12-02 15:01:44.921  INFO 13232 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-12-02 15:01:45.048  INFO 13232 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-02 15:01:45.056  INFO 13232 --- [main] zxz.cs160.green.GreenApplication         : Started GreenApplication in 2.89 seconds (JVM running for 3.341)
+2021-12-02 15:01:45.820  INFO 13232 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-02 15:01:45.820  INFO 13232 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-02 15:01:45.820  INFO 13232 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-12-02 15:05:03.835  INFO 13232 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-02 15:05:03.836  INFO 13232 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-12-02 15:05:03.839  INFO 13232 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

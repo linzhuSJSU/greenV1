@@ -1,0 +1,43 @@
+server:
+  port: 8080
+logging:
+  level:
+    root: info
+    com.zeng.lrmi: debug
+  file:
+    name: logs/debug.log
+spring:
+  datasource:
+    url: jdbc:h2://mem:db;DB_ClOSE_DELAY=-1
+    username: sa
+    password: sa
+    driver-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    open-in-view: false
+  cache:
+    type: none
+  #  thymeleaf:
+#    prefix: classpath:/templates/
+  mail:
+    host: localhost
+    port: 1025
+    username: hello
+    password: hello
+    properties:
+      mail:
+        smtp:
+          ssl:
+            trust: "*"
+          auth: true
+          starttls:
+            enable: true
+          connectiontimeout: 5000
+          timeout: 3000
+          writetimeout: 5000
+#mvc:
+#  view:
+#    prefix: /
+#    suffix: .html
